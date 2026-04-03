@@ -1,0 +1,18 @@
+name: clean_feature
+description: Generate a Flutter feature module using clean architecture.
+version: 0.1.0+1
+environment:
+  mason: ^0.1.0
+vars:
+  feature_name:
+    type: string
+    description: Raw feature name input
+    prompt: Feature name?
+  feature_snake:
+    type: string
+    description: snake_case feature name
+    prompt: Feature snake_case name?
+  feature_pascal:
+    type: string
+    description: PascalCase feature name
+    prompt: Feature PascalCase name?

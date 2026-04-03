@@ -1,0 +1,16 @@
+# https://dart.dev/guides/libraries/private-files
+# Created by `dart pub`
+.dart_tool/
+.mason-cache/
+
+# Local tool state
+.dart-cli-completion/
+.dart-tool/
+.mason/
+
+# IDE/editor
+.idea/
+.vscode/
+
+# OS
+.DS_Store

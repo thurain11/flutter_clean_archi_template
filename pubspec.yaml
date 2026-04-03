@@ -1,0 +1,17 @@
+name: cli_tool
+description: CLI generator for Flutter clean architecture feature scaffolding.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.9.2
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+
+executables:
+  ca_gen: cli_tool
